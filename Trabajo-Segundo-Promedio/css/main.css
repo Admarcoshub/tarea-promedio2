@@ -13,3 +13,8 @@
 .clearfix:after {
   clear: both;
 }
+
+header {
+	background: #0f0f0f;
+	padding: 20px;
+}
