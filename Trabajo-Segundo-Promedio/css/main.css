@@ -181,22 +181,52 @@ h4 {
 	background: #34495e;
 	padding: 50px 0;
 	box-sizing: border-box;
-	color: #ccc;
+	color: #bbb;
 }
 
-.latest {
-	max-width: 100%;
+#footer a {
+	color: #bbb;
 }
 
-.l-img {
-	width: 60px;
-	margin-top: 5px;
+#footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-.l-img img {
-	width: 100%;
+.media {
+	margin-bottom: 5px;
 }
 
-.l-info {
-	margin-bottom: 8px;
+.media-left {
+	float: left;
+}
+
+.media-object {
+	width: 90px;
+}
+
+.media-body {
+	padding-left: 10px;
+}
+
+footer {
+	background: #2c3e50;
+	padding: 20px 0;
+	box-sizing: border-box;
+	color: #bbb;
+}
+
+#f-nav {
+	text-align: right;
+}
+
+#f-nav a {
+	padding: 0 10px;
+	box-sizing: border-box;
+	color: #bbb;
+}
+
+#f-nav a:last-child {
+	padding-right: : 0;
 }
