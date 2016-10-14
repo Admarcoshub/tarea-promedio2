@@ -1,0 +1,87 @@
+#about-top {
+	background: #2ecc71;
+	padding: 50px 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.breadcrumb {
+	background: transparent;
+	border-radius: 0;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.breadcrumb a {
+	color: #fff;
+}
+
+#about {
+	background: #f5f5f5;
+	padding: 50px 0;
+	box-sizing: border-box;
+	color: #475a6d;
+}
+
+.progress {
+	height: 30px;
+}
+
+.progress-bar {
+	padding-top: 3px;
+}
+
+#meet-team {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.t-member {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.senior {
+	font-weight: normal;
+	color: #aaa;
+}
+
+.soci {
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 100%;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.fb {
+	background: #4f7dd4;
+}
+
+.gp {
+	background: #dc422b;
+}
+
+.tw {
+	background: #5bceff;
+}
+
+.in {
+	background: #21a6d8;
+}
+
+.fa-facebook,
+.fa-google-plus,
+.fa-twitter,
+.fa-linkedin {
+	color: #fff;
+	font-size: 20px;
+}
