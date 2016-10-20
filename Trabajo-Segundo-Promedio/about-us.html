@@ -22,26 +22,29 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-    <!-- Inserte código aqui -->
-    <header class="container-fluid">
+    <div class="navbar">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
-                    <div id="logo">
-                        <a href="index.html"><img src="./images/logo.png"></a>
-                    </div>
+            <div class="navbar-brand">
+                <div id="logo">
+                    <img src="./images/logo.png">
                 </div>
-                <nav class="col-xs-9 col-sm-9 col-md-6 col-lg-6">
-                    <a href="index.html">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="services.html">Service</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contact-us.html">Contact</a>
-                </nav>
+            </div>
+
+            <div class="box-shadow-menu navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            </div>             
+                       
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </header>
+    </div>
 
     <section class="top" class="container-fluid">
         <div class="container">
