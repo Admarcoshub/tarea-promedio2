@@ -70,8 +70,7 @@ aside ul li {
 }
 
 .post-info {
-	padding: 20px;
-	box-sizing: border-box;
+	margin: 20px;
 }
 
 .post-info p {
