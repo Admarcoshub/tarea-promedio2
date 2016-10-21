@@ -20,7 +20,7 @@ body {
 
 header {
 	background: #34495e;
-	padding: 25px;
+	padding-top: 10px;
 	box-sizing: border-box;
 }
 
@@ -32,6 +32,47 @@ header {
 	width: 100%;
 }
 
+/***de aqui***/
+.collapse ul li a {
+	color:#ccc;
+}
+
+.collapse ul li a:hover {
+	background: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.box-shadow-menu {
+	position: relative;
+  	padding-left: 1.25em;
+  	border: 2px solid #3f6198;
+  	background: #333;
+}
+.box-shadow-menu:before {
+	content: "";
+	position: absolute;
+	margin:0px 3px 3px 3px;
+	left: 0;
+	top: 0.30em;
+	width: 1.5em;
+	height: 0.15em;
+	background: #fff;
+	box-shadow: 
+	0 0.25em 0 0 #fff,
+	0 0.5em 0 0 #fff;   
+}
+
+@media (min-width: 768px) {
+	.box-shadow-menu {
+		display:none;
+	}
+}
+/****hasta aqui agregue***/
+
+/****desde aqui***/
+/*
 nav {
 	text-align: right;
 }
@@ -49,6 +90,8 @@ nav a:hover {
 	text-decoration: none;
 	color: #fff;
 }
+*/
+/****hasta aqui borre****/
 
 #banner {
 	background: url(../images/slider/bg1.jpg);
@@ -96,7 +139,7 @@ h2 {
 }
 
 .s-logos i {
-	font-size: 40px;
+	font-size: 2em;
 }
 
 .s-logo {
