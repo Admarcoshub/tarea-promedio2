@@ -46,6 +46,11 @@ h5 {
 	line-height: 20px;
 }
 
+
+#portfolio {
+	background: #f5f5f5;
+}
+
 .notices {
 	margin-top: 50px;
 	margin-bottom: 50px;
