@@ -139,19 +139,15 @@ h2 {
 	margin-top: 5px;
 }
 
-.s-logos {
-	max-width: 100%;
-}
-
-.s-logos i {
+.s-logo i {
 	font-size: 2em;
 }
 
 .s-logo {
 	text-align: center;
 	margin-top: 5px;
-	width: 70px;
-	height: 80px;
+	height: 60px;
+	width: 60px;
 }
 
 .slogo {
