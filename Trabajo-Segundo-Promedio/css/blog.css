@@ -77,7 +77,10 @@ aside ul li {
 	margin-top: 20px;
 }
 
-h3 {
+#blog-c h3,
+#tag h3,
+#fb h3,
+#posts h3 {
 	margin-top: 0;
 	margin-bottom: 20px;
 }
