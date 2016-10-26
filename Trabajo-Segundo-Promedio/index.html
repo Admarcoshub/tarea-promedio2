@@ -114,29 +114,57 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-danger">
-                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <a href="#carousel-1" data-slide="prev"><i class="fa fa-angle-left" aria-hidden="true "></i></a>
                         </button>
                         <button type="button" class="btn btn-danger">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </button>
+                            <a href="#carousel-1" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </button>                      
                     </div>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
-                    <div class="p-boxes">
-                        <img src="./images/portfolio/recent/item1.png">
-                        <h4>Nova - Corporate site template</h4>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
-                    <div class="p-boxes">
-                        <img src="./images/portfolio/recent/item3.png">
-                        <h4>Fornax - Apps site template</h4>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
-                    <div class="p-boxes">
-                        <img src="./images/portfolio/recent/item2.png">
-                        <h4>Flat Theme - Business Theme</h4>
+                <div class="move col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="carousel slide" id="carousel-1" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="p-boxes">
+                                        <img src="./images/portfolio/recent/item1.png">
+                                        <h4>Nova - Corporate site template</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="p-boxes">
+                                        <img src="./images/portfolio/recent/item3.png">
+                                        <h4>Fornax - Apps site template</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="p-boxes">
+                                        <img src="./images/portfolio/recent/item2.png">
+                                        <h4>Flat Theme - Business Theme</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="p-boxes">
+                                        <img src="./images/portfolio/recent/item1.png">
+                                        <h4>Nova - Corporate site template</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="p-boxes">
+                                        <img src="./images/portfolio/recent/item3.png">
+                                        <h4>Fornax - Apps site template</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="p-boxes">
+                                        <img src="./images/portfolio/recent/item2.png">
+                                        <h4>Flat Theme - Business Theme</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -283,6 +311,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
   </body>
 </html>

@@ -46,6 +46,16 @@ body {
 	color: #fff;
 }
 
+.navbar-collapse {
+	width:100%;
+	text-align:center;
+	color:white;
+}
+
+.navbar-collapse .nav li a {
+	color:white;
+}
+
 .box-shadow-menu {
 	position: relative;
   	padding-left: 1.25em;
@@ -186,6 +196,10 @@ h2 {
 h4 {
 	font-size: 16px;
 	font-weight: bold;
+}
+
+    #carousel-1 {
+    white-space: nowrap;
 }
 
 #clients {
