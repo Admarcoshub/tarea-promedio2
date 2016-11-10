@@ -1,8 +1,8 @@
 #about {
-	background: #f5f5f5;
-	padding: 50px 0;
+	background: $bg-fondo;
 	box-sizing: border-box;
 	color: #475a6d;
+	@include padding(50px, 0, 0, 50px);
 }
 
 .progress {
@@ -10,22 +10,17 @@
 }
 
 .progress-bar {
-	padding-top: 3px;
+	@include padding(3px, 0, 0, 0);
 }
 
 #meet-team {
 	text-align: center;
-	margin-bottom: 50px;
+	@include margin-bottom(50px);
 }
 
 .t-member {
 	text-align: center;
-	margin-bottom: 20px;
-}
-
-h5 {
-	font-weight: bold;
-	line-height: 20px;
+	@include margin-bottom(20px);
 }
 
 .senior {
@@ -36,7 +31,7 @@ h5 {
 .soci {
 	width: 40px;
 	height: 40px;
-	padding: 10px;
+	@include padding(10px, 10px, 10px, 10px);
 	box-sizing: border-box;
 	border-radius: 100%;
 	overflow: hidden;
@@ -64,6 +59,6 @@ h5 {
 .fa-google-plus,
 .fa-twitter,
 .fa-linkedin {
-	color: #fff;
+	color: $white;
 	font-size: 20px;
 }
